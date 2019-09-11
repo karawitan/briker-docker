@@ -12,6 +12,17 @@ git checkout 15.4.0
 
 [pbx] upgrade Sangoma driver to wanpipe 7.0.25
 [pbx] upgrade DAHDI to version 2.11.1
+
+git clone git://git.asterisk.org/dahdi/linux dahdi-linux --depth 1
+cd dahdi-linux
+git fetch --tags --depth 1
+git checkout v2.11.1
+
+git clone git://git.asterisk.org/dahdi/tools dahdi-tools --depth 1
+cd dahdi-tools
+git fetch --tags --depth 1
+git checkout v2.11.1
+
 [pbx] upgrade libpri to version 1.6.0
 [lin] upgrade Nginx to version 1.14.0
 
