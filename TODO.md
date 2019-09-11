@@ -6,6 +6,8 @@ Changelog for Briker 2.1 “Merapi”  are as follows:
 [pbx] upgrade Asterisk to version 15.4.0
 
 git clone https://github.com/asterisk/asterisk.git --depth 1
+git fetch --tags
+cd asterisk
 git checkout 15.4.0
 
 [pbx] upgrade Sangoma driver to wanpipe 7.0.25
