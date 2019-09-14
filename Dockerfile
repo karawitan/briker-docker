@@ -1,5 +1,8 @@
 FROM ubuntu:14.04.3
 
+#
+# LICENSE: GPL , version TBD
+#
 MAINTAINER Olivier KALOUDOFF <olivier.kaloudoff@gmail.com>
 
 ENV TERM xterm
